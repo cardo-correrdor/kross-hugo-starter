@@ -7,15 +7,8 @@ sections:
 - type: directory
   path: content/portfolio
   label: Portfolio
-  create: none
-  match: "*"
-- type: directory
-  path: content/blog
-  label: Post
   create: documents
   match: "*"
-  templates:
-  - post
 - type: directory
   path: content/about
   label: About
